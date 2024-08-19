@@ -9,6 +9,9 @@ env: flex
 
 service_account: optical-metric-198312@appspot.gserviceaccount.com
 
+automatic_scaling:
+  # Configure automatic scaling here
+  max_instances: 1  # This sets the maximum number of instances to 2
 
 env_variables:
   # Put production environment variables here.
