@@ -1,11 +1,15 @@
-runtime: php83
+runtime: php
+runtime_config:
+  document_root: "public"
+  operating_system: "ubuntu22"
+  runtime_version: "8.2.22"
+
 env: flex
 
-runtime_config:
-  document_root: public
+
+service_account: optical-metric-198312@appspot.gserviceaccount.com
 
 
 env_variables:
   # Put production environment variables here.
   APP_KEY: base64:PA+mxA8BSw2RMOzCT5AiM+sTh9RXcUv+mjb2EInG/OU=
-
